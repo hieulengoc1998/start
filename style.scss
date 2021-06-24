@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+.container {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #000 ;
+        .brand{
+            display: flex;
+            i {
+                font-size: 20px;
+                color: orange;
+            }
+            p {
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: white;
+                span {
+                    color: orange;
+                }
+            }
+        }
+        .nav-items {
+            ul {
+                padding: 5px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 15px;
+                    margin: 10px;
+                    font-weight: 500;
+                }
+                a:hover {
+                    color: orange;
+                }
+            }
+        }
+    }
+}
